@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Survey</title>
+
+    <link rel="stylesheet" href="Survey.css">
+
+    <script>
+        function surveySubmit() {
+            alert("Survey received!  Thank you!");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Restaurant Survey</h1>
+            <p id="description" class="description text-center">
+                Thank you for your recent visit to our restaurant.
+              </p>
+        </header>
+
+        <form id="survey-form" onsubmit="surveySubmit()">
+        <div class="form-group">
+          <label id="name-label" for="sname">Server name:</label>
+          <input 
+            type="text" 
+            name="sname"
+            id="sname" 
+            class="form-control"
+            placeholder="If known, enter Server's name"/>
+        </div>
+
+<!-- comment out to show another way to code this logic
+            <div class="form-group">
+            <p>Where did you dine?</p>
+            <input type="radio" id="dinein" name="location" value="dinein" checked>
+            <label for="dinein">Dine in</label><br>
+            <input type="radio" id="takeout" name="location" value="takeout">
+            <label for="takeout">Take out</label><br>
+            <input type="radio" id="curbside" name="location" value="curbside">
+            <label for="curbside">Curbside</label><br>
+            <input type="radio" id="delivery" name="location" value="delivery">
+            <label for="delivery">Delivery</label><br>
+            <input type="radio" id="other" name="location" value="other">
+            <label for="other">Other</label>
+            <br>
+        </div>
+-->
+
+        <div class="form-group">
+            <p>Where did you dine?</p>
+            <label>
+                <input 
+                    name="location" 
+                    value="dinein" 
+                    type="radio" 
+                    class="input-radio" 
+                    checked/>
+                Dine In
+            </label>
+            <label>
+                <input 
+                    name="location" 
+                    value="takeout" 
+                    type="radio" 
+                    class="input-radio"/>
+                Take Out
+            </label>
+            <label>
+                <input 
+                    name="location" 
+                    value="curbside" 
+                    type="radio" 
+                    class="input-radio"/>
+                Curbside
+            </label>
+            <label>
+                <input 
+                    name="location" 
+                    value="delivery" 
+                    type="radio" 
+                    class="input-radio"/>
+                Delivery
+            </label>
+            <label>
+                <input 
+                    name="location" 
+                    value="other" 
+                    type="radio" 
+                    class="input-radio"/>
+                Other
+            </label>
+        </div>  
+
+<!-- comment out to code in different format
+            <div class="form-group">
+            <p>What did your order include?
+                <span class="clue">(Check all that apply)</span>
+            </p><br>
+            <input type="checkbox" id="appetizer" name="appetizer" value="appetizer" class="input-checkbox"/>
+            <label for="appetizer">Appetizer</label>
+            <input type="checkbox" id="entree" name="entree" value="entree" class="input-checkbox"/>
+            <label for="entree">Entree</label>
+            <input type="checkbox" id="dessert" name="dessert" value="dessert" class="input-checkbox"/>
+            <label for="dessert">Dessert</label>
+            <input type="checkbox" id="drinks" name="drinks" value="drinks" class="input-checkbox"/>
+            <label for="drinks">Drinks</label>
+        </div>
+-->
+
+        <div class="form-group">
+            <p>What did your order include?
+                <span class="clue">(Check all that apply)</span>
+            </p>
+            <label>
+                <input 
+                type="checkbox" 
+                name="appetizer" 
+                value="appetizer" 
+                class="input-checkbox"/>
+                Appetizer
+            </label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="entree" 
+                value="entree" 
+                class="input-checkbox"/>
+                Entree
+            </label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="dessert" 
+                value="dessert" 
+                class="input-checkbox"/>
+                Dessert
+            </label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="drinks" 
+                value="drinks" 
+                class="input-checkbox"/>
+                Drinks
+            </label>
+        </div>
+
+
+        <div class="form-group">
+            <p>How likely are you to dine with us again?</p>
+            <select id="dropdown" name="dineagain" class="form-control" required>
+                <option disabled selected value>Select one</option>
+                <option value="verylikely">Very Likely</option>
+                <option value="somewhatlikely">Somewhat Likely</option>
+                <option value="notlikely">Not Likely</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comment here..."
+            ></textarea>
+        </div>
+  
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+             Submit
+            </button>
+        </div>
+    </form>
+  </div>
+    
+</body>
+</html>
