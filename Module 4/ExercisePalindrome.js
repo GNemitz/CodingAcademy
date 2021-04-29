@@ -9,7 +9,7 @@ function validateANDadd() {
     }
     // validate that the list # is valid
     if (nbr < 1 || nbr > 2) {
-        alert("Please enter a valid number");
+        alert("Please enter 1 or 2");
         return;
     }
     // add the word to the appropriate list
