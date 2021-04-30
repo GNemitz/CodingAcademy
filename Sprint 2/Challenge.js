@@ -68,7 +68,7 @@ function validateANDadd() {
     //var middle = theNewWord.length / 2;
 }
 
-  function clearList() {
+  function clearAll() {
     document.getElementById("min").value = "";
     document.getElementById("max").value = "";
     document.getElementById("newNumber").value = "";
