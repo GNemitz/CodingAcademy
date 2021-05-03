@@ -28,23 +28,23 @@ async function getBaconIpsum() {
     // determine which algorithm to use, encrypt the data using that algorithm, and print in the myEncrypted Data section
     var theAlgorithm = document.getElementById("Algorithm").value;  
     var newJsonData;
-    if (theAlgorithm === "1")
-      newJsonData = Encrypt1(jsonData);   // apply the first cipher algorithm
-    else
-      newJsonData = Encrypt2(jsonData);   // apply the second cipher algorithm
-
+    
+    if (theAlgorithm === "1") 
+      newJsonData = Encrypt1(jsonData);   // apply the first algorithm
+    else 
+      newJsonData = Encrypt2(jsonData);   // apply the second algorithm
+    
   // loop through the encrypted JSON object one paragraph at a time and print each in the EncryptedData section
   for (var para in newJsonData) {   
     document.getElementById("myEncryptedData").innerHTML += "<p>" + newJsonData[para] + "</p>";
   }
-
+  
   return true;
   } 
 
 function Encrypt1 (someJSON) {
   /* This simple Caesar's cipher algorithm will add 13 to the ASCII value of each character if the character
      is a letter.  It is circular so when adding 13 if it goes past z (or Z) it will go to a (or A) next. */
-
      var newChar;      // will contain the character being examined
      var newCharCode;  // will contain the ASCII code of the character being examined
      var newJSON=[];   // will contain the new JSON, initially an empty array
