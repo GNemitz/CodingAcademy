@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Service API Consumer Example</title>
+    <link rel="stylesheet" href="Challenge.css"> 
+    <script src="Challenge.js"></script>
+</head>
+<body>
+    <h1>Random Quote Generator</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Find a quote:</h2>
+            <label for="QuoteLength">How long of a quote do you want to see?</label>
+            <select id="QuoteLength">
+                <option value="short">Show me a short quote</option>
+                <option value="medium">Show me a medium quote</option>
+                <option value="long">Show me a long quote</option>
+            </select>
+            <br>
+            <input type="button" value="Get a Quote!" onclick="getQuote()">
+        </div>
+        <div class="myflexboxColumn">
+            <h2>Quote</h2>
+            <p id="myQuote"></p>
+            <br /><br />
+        </div>
+        
+        <div class="myflexboxColumn">
+            <h2>Author</h2>
+            <p id="myAuthor"></p>
+            <br /><br />
+        </div>
+
+    </div>
+
+</body>
+</html>

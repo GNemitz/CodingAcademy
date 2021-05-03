@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Service API Consumer Example</title>
-    <link rel="stylesheet" href="Exercise.css"> 
-    <script src="Exercise.js"></script>
+    <title>Sprint 3 - Day 2 - Web Service API Consumer Example</title>
+    <link rel="stylesheet" href="Exercise1.css"> 
+    <script src="Exercise1.js"></script>
 </head>
 <body>
     <h1>Web Service API Consumer Example</h1>
     <div class="myflexboxRow">
         <div class="myflexboxColumn">
             <h2>Obtain user information:</h2>
+            <label for="Parameter">All meat or meat with filler?</label>
+            <select id="Parameter">
+                <option value="all-meat">Meat Only</option>
+                <option value="meat-and-filler">Meat and Filler</option>
+            </select>
+            <br>
             <label for="nbrParagraphs">How many paragraphs?</label>
             <select id="nbrParagraphs">
                 <option value="1">1</option>
@@ -21,7 +27,13 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
-            <br><br>
+            <br>
+            <label for="Algorithm">Use which algorithm to encrypt the data?</label>
+            <select id="Algorithm">
+                <option value="Algorithm1">Algorithm 1</option>
+                <option value="Algorithm2">Algorithm 2</option>
+            </select>
+            <br>
             <input type="button" value="Get my Bacon Ipsum!" onclick="getBaconIpsum()">
         </div>
         <div class="myflexboxColumn">
@@ -33,7 +45,11 @@
             <h2>Return data as formatted paragraphs</h2>
             <p id="myFormattedData"></p>
         </div>   
-        
+        <div class="myflexboxColumn">
+            <h2>Return data after encrypted</h2>
+            <p id="myEncryptedData"></p>
+        </div>   
+
       </div>
 
 </body>
