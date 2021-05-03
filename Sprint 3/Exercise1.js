@@ -76,18 +76,19 @@ return newJSON;   // return the encrypted paragraphs
 function Encrypt2(inStr) {
 
   var startArray = [],
-      outArray = [];
+      outArray = [],
+      mixedArray =[];
 
   for (var i = 32; i <= 126; i++) {
       startArray[i - 32] = String.fromCharCode(i);
   }
   var mixedArray = generateKeyArr(startArray);
 
-  for (var para of inStr) {
-      for (var chara of para) {
-          outArray.push(mixedArray[chara.charCodeAt(0) - 32]);
+  for (var para of inStr) {    // loop through each paragraph
+      for (var chara of para) {  //loop through each character of the paragraph
+          outArray.push(mixedArray[startArray.indexOf(chara)]);
       }
-      outArray.push("\n\n");
+      outArray.push("<br></br>");  // \n\n removed
   }
 
   return outArray.join("");
@@ -96,7 +97,7 @@ function Encrypt2(inStr) {
 function generateKeyArr(startArray) {
   var currentIndex = startArray.length,
       temporaryValue, randomIndex,
-      array = startArray;
+      array = startArray.slice();
 
   while (0 !== currentIndex) {
       randomIndex = Math.floor(Math.random() * currentIndex);
