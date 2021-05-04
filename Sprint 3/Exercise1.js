@@ -5,7 +5,7 @@ async function getBaconIpsum() {
     var theNewParameter = document.getElementById("Parameter").value;
     var theNewParagraphs = document.getElementById("nbrParagraphs").value;
     apiString = apiString + "?type=" + theNewParameter + "&paras=" + theNewParagraphs; 
-    alert(apiString);  // show the API string
+    //alert(apiString);  // show the API string
   
     // now make the API call to the web service using the string and store what is returned in response
     var response = await fetch(apiString);
@@ -38,7 +38,7 @@ async function getBaconIpsum() {
   for (var para in newJsonData) {   
     document.getElementById("myEncryptedData").innerHTML += "<p>" + newJsonData[para] + "</p>";
   }
-  
+
   return true;
   } 
 
@@ -65,7 +65,7 @@ function Encrypt1 (someJSON) {
         newChar = String.fromCharCode(newCharCode-13);             // change the character
       newPara += newChar;          // add the new character to the paragraph
     }  // end for each character
-
+    
   newJSON.push(newPara);   // add the new encrypted paragraph array
 
   }  // end for each paragraph
@@ -75,23 +75,30 @@ return newJSON;   // return the encrypted paragraphs
 
 function Encrypt2(inStr) {
 
-  var startArray = [],
+  var startArray = [],  //create empty arrays
       outArray = [],
       mixedArray =[];
 
-  for (var i = 32; i <= 126; i++) {
+  for (var i = 32; i <= 126; i++) {     //loop through and build startArray 
       startArray[i - 32] = String.fromCharCode(i);
   }
   var mixedArray = generateKeyArr(startArray);
 
   for (var para of inStr) {    // loop through each paragraph
+    var tempstr = "";
       for (var chara of para) {  //loop through each character of the paragraph
-          outArray.push(mixedArray[startArray.indexOf(chara)]);
-      }
-      outArray.push("<br></br>");  // \n\n removed
-  }
+         tempstr +=  mixedArray[startArray.indexOf(chara)];
+        //outArray.push(mixedArray[startArray.indexOf(chara)]);  //pushing every char to outarray
 
-  return outArray.join("");
+      }
+    
+    outArray.push(tempstr);  // push breaks
+  }
+  //alert(outArray);
+
+
+  //return outArray;  //put back into string
+  return outArray;  //put back into string
 }
 
 function generateKeyArr(startArray) {
