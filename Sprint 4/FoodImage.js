@@ -2,7 +2,7 @@ async function getFoodImage() {
     // first build the API call string by starting with the URL
     var apiString = "https://foodish-api.herokuapp.com/api/";
     // next add the parameters to the string using the drop down lists
-    alert(apiString);
+    //alert(apiString);
     
     var response = await fetch(apiString);
     
@@ -15,7 +15,7 @@ async function getFoodImage() {
       
       var theRandomFoodImage = "";  //this string will store what to display to the user
       //print out the information for the user and clear the userid
-      document.getElementById("FoodImage").innerHTML = "<img src='" + jsonData.image + "' width='300'></img>";
+      document.getElementById("FoodImage").innerHTML = "<img src='" + jsonData.image + "' width='250'></img>";
       
     } else {    //invalid status 
       //handle errors
