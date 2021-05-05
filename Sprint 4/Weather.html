@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="Weather.css"> 
+    <script src="Weather.js"></script>
+</head>
+<body>
+    <h1>List a User's Github repos</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <label for="location">Select a location?</label>
+            <br>
+            <select id="location">
+                <option value="oax">Omaha</option>
+              </select><br><br>
+            <input type="button" value="Get Weather Report" onclick="getWeather()">
+        </div>
+        <div class="myflexboxColumn">
+            <h1>Day of the Week</h1>
+            <p id="myDays"></p>
+            <br /><br />
+        </div>
+        <div class="myflexboxColumn">
+            <h1>Weather Report</h1>
+            <p id="myWeather"></p>
+            <br /><br />
+        </div>
+        <div class="myflexboxColumn">
+            <h1>Temperature</h1>
+            <p id="myTemp"></p>
+            <br /><br />
+        </div>
+
+
+    </div>
+
+</body>
+</html>
