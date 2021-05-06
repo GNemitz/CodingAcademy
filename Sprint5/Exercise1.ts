@@ -1,54 +1,74 @@
-function validateANDadd() {
-    // define variables
-    let min = document.getElementById("min").value;
-    var max = document.getElementById("max").value;
-    var nbr = Number(document.getElementById("newNumber").value)
-    // validate min is valid
-    if (min == "") {
-        alert("Please enter a number for the minimum");
-    return;
-    }
-    // validate max is valid
-    if (max == "") {
-        alert("Please enter a number for the maximum");
-    return;
-    }
-    //ADD CODE to block ranges after they have been input and validated
+export{};
 
-    // validate nbr is not blank
-    if (nbr == "") {
-        alert("Please enter a number to add to the list");
-        return;
-    }
-    // validate if in range
-    if ((nbr<min) || (nbr>max)) {
-        alert("Please enter a number in the range");
-        return;
-    }
-    // add the number to the list
-    var tableAdd = document.getElementById("myList");
-        
-    // add the row to the table
-    tableAdd.insertRow(tableAdd.rows.length).innerHTML = nbr;
+function validateANDadd() {
+  // define variables
+  let minString: string = (<HTMLInputElement>document.getElementById("min")).value;
+  let newMin: number; 
+  let maxString: string = (<HTMLInputElement>document.getElementById("max")).value;
+  let newMax: number;
+  let nbrString: string = (<HTMLInputElement>document.getElementById("newNumber")).value;
+  let newNbr: Number;
+
+  // validate min is valid
+  if (minString == "") {
+      alert("Please enter a minimum value");
+      return false;
+  }
+  else 
+      newMin = parseInt(minString);
+
+  // validate max is valid
+  if (maxString == "") {
+      alert("Please enter a maximum value");
+          return false;
+  }
+  else 
+      newMax = parseInt(maxString);
+
+
+      //ADD CODE to block ranges after they have been input and validated
+
+
+  // validate nbr is not blank
+  if (nbrString == "") {
+      alert("Please enter a number to add to the list");
+      return false;
+  }
+  else 
+      newNbr = parseInt(nbrString);
+    
+  // validate if in range
+  if ((newNbr<newMin) || (newNbr>newMax)) {
+      alert("Please enter a number in the range");
+      (<HTMLInputElement>document.getElementById("newNumber")).value = "";
+      return false;
+  }
+  else {
+
+    //disable the buttons so the user cannot enter any changes
+   (<HTMLInputElement>document.getElementById("min")).disabled = true;
+   (<HTMLInputElement>document.getElementById("max")).disabled = true;
+
+       // add the number to the list
+    let tableAdd: any = (<HTMLInputElement>document.getElementById("myList"));
+    (tableAdd.insertRow(tableAdd.rows.length)).innerHTML = newNbr;   // add the row to the table
 
     //calculate the mean:
     //count number of numbers in list
-    var numsCnt = tableAdd.rows.length;   
-    //get sum of numbers added together 
-    var sum = 0;
-    for (i=0; i<numsCnt; i++){
+    let numsCnt: number = tableAdd.rows.length;   
+    let sum = 0;            //get sum of numbers added together 
+    for (let i: number = 0; i < numsCnt; i++){
         sum += parseInt((tableAdd.rows[i]).innerHTML);
     }
-    var mean = (sum / numsCnt);
-    var Meanlabel = document.getElementById("Mean");
+    let mean = (sum / numsCnt);
+    let Meanlabel = (<HTMLInputElement>document.getElementById("Mean"));
     Meanlabel.innerHTML = mean.toFixed(3);
 
     //find the median number:
-    //create empty array
-    var array = [];
+    let array = [];         //create empty array
     //load array using table data        
-    for (i=0; i<=numsCnt; i++){
-        array.push(tableAdd.rows[i].innerHTML);
+    for (let i: number = 0; i <= numsCnt; i++){
+        array.push(parseInt(((tableAdd.rows[i]).innerHTML)));
     }
         
     //sort array 
@@ -62,18 +82,21 @@ function validateANDadd() {
         var median = array[array.length / 2 | 0]            // if the remainder is 0 then there is an even number of numbers
         return;
     } 
-
+  
     //var Meanlabel = document.getElementById("Mean");
     //Meanlabel.innerHTML = mean.toFixed(3);
     //var middle = theNewWord.length / 2;
+  }
 }
 
-  function clearAll() {
-    document.getElementById("min").value = "";
-    document.getElementById("max").value = "";
-    document.getElementById("newNumber").value = "";
-    document.getElementById("Mean").value = "";
-    var tableRef = document.getElementById("myList");
-    tableRef.innerHTML = "";
-  }
+function clearAll() {
+  document.getElementById("myList").innerHTML = "";
+  (<HTMLInputElement>document.getElementById("min")).disabled = false;
+  (<HTMLInputElement>document.getElementById("max")).disabled = false;
+  (<HTMLInputElement>document.getElementById("min")).value = "";
+  (<HTMLInputElement>document.getElementById("max")).value = "";
+  (<HTMLInputElement>document.getElementById("newNumber")).value = "";
+  (<HTMLInputElement>document.getElementById("Mean")).value = "n/a";
+  
+}
 
