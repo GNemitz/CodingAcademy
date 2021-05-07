@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 exports.__esModule = true;
 function getWeather() {
     return __awaiter(this, void 0, void 0, function () {
-        var apiString, theLocation, response, jsonData, days, theWeather, i;
+        var apiString, theLocation, response, theWeather, jsonData, days, i;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -49,6 +49,7 @@ function getWeather() {
                     return [4 /*yield*/, fetch(apiString)];
                 case 1:
                     response = _a.sent();
+                    theWeather = "";
                     if (!(response.status >= 200 && response.status <= 299)) return [3 /*break*/, 3];
                     return [4 /*yield*/, response.json()];
                 case 2:
@@ -57,7 +58,7 @@ function getWeather() {
                     document.getElementById("myDays").innerHTML = ""; // clear what was previously shown
                     document.getElementById("myWeather").innerHTML = ""; // clear what was previously shown
                     document.getElementById("myTemp").innerHTML = ""; // clear what was previously shown
-                    theWeather = "";
+                    // create the user feedback with the repos and links
                     for (i = 0; i < days; i++) { //loop through paragraphs
                         //print out the information for the user and clear the userid
                         document.getElementById("myDays").innerHTML += jsonData.properties.periods[i].name + "<br><br>";

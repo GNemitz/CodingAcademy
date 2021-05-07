@@ -10,14 +10,17 @@ async function getWeather() {
 
   // now make the API call to the web service using the string and store what is returned in response
   // response is data we got back
-  let response: any = await fetch(apiString);
-  //var response = await fetch(apiString);
+  const response: Response = await fetch(apiString);
+  //let response: Response = await fetch(apiString);
+
+  let theWeather: string = "";  //this string will store what to display to the user
 
   // now, check the status property of the response object, 200-299 is valid
   if (response.status >= 200 && response.status <= 299) {  // valid status
     // read the response as JSON since it is a JSON file
-    let jsonData: any = await response.json();  
-    
+    const jsonData: any = await response.json();
+    //let jsonData: Array<string> = await response.json();  //causes errors with properties is not defined.
+
     let days: number = jsonData.properties.periods.length;
 
     document.getElementById("myDays").innerHTML = "";   // clear what was previously shown
@@ -25,9 +28,7 @@ async function getWeather() {
     document.getElementById("myTemp").innerHTML = "";   // clear what was previously shown
 
     // create the user feedback with the repos and links
-    var theWeather = "";  //this string will store what to display to the user
-    
-    for (let i=0; i<days; i++) {   //loop through paragraphs
+    for (let i:number=0; i<days; i++) {   //loop through paragraphs
       //print out the information for the user and clear the userid
       document.getElementById("myDays").innerHTML += jsonData.properties.periods[i].name + "<br><br>";
       document.getElementById("myWeather").innerHTML += jsonData.properties.periods[i].shortForecast + "<br><br>";
