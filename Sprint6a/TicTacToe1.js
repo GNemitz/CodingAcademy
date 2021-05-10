@@ -56,26 +56,28 @@ var winningConditions = [
     [2, 4, 6]
 ];
 function handleResultValidation() {
+    //loop through all of the winning conditions to see if any of them are met - 7 possible winning conditions
     var roundWon = false;
     for (var i = 0; i <= 7; i++) {
         var winCondition = winningConditions[i];
         var a = gameState[winCondition[0]];
         var b = gameState[winCondition[1]];
         var c = gameState[winCondition[2]];
-        if (a === '' || b === '' || c === '') {
+        if (a === '' || b === '' || c === '') { //don't match
             continue;
         }
-        if (a === b && b === c) {
+        if (a === b && b === c) { //all 3 match so there is a winner
             roundWon = true;
             break;
         }
     }
     if (roundWon) {
-        statusDisplay.innerHTML = winningMessage();
+        statusDisplay.innerHTML = winningMessage(); //if it was determined the round was won, display message
         gameActive = false;
         return;
     }
     var roundDraw = 0;
+    //loop through all of the cells 
     for (var i = 0; i < 9; i++) {
         if ((gameState[i] == "X") || (gameState[i] == "O"))
             roundDraw++;
@@ -114,6 +116,7 @@ function handleCellClick(clickedCellEvent) {
             handlePlayerChange();
     }
 }
+// set game to active, current player to x, set game state array to spaces, display who's turn it is, & clear out cells
 function handleRestartGame() {
     gameActive = true;
     currentPlayer = "X";
