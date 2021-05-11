@@ -132,3 +132,10 @@ select{
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: none;
+  color: white;
+}
