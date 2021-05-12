@@ -1,0 +1,8 @@
+<div *ngIf="messageService.messages.length">    <!--only displays if there are messages to show-->
+
+  <h2>Messages</h2>
+  <button class="clear"
+          (click)="messageService.clear()">Clear messages</button>            <!--event binding binds the buttons click event to messageService.clear-->
+  <div *ngFor='let message of messageService.messages'> {{message}} </div>    <!--presents the list of messages in repeated div elements-->
+
+</div>
