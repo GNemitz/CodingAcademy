@@ -13,7 +13,7 @@ import { HeroService } from '../hero.service';
 export class HeroDetailComponent implements OnInit {
   //@Input() hero?: Hero;     //add hero property, preceeded by the input decorator
   hero: Hero;
-  
+
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
@@ -30,6 +30,11 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(hero => this.hero = hero);
   }
 
+  save(): void {
+    this.heroService.updateHero(this.hero)
+      .subscribe(() => this.goBack());
+  }
+  
   goBack(): void {
     this.location.back();
   }
