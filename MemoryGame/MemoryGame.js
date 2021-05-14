@@ -77,12 +77,13 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('You have clicked the same image!');
         }
         else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('You found a match!');
             cards[optionOneId].setAttribute('src', 'images/white.png');
             cards[optionTwoId].setAttribute('src', 'images/white.png');
             cards[optionOneId].removeEventListener('click', flipCard);
             cards[optionTwoId].removeEventListener('click', flipCard);
             cardsWon.push(cardsChosen);
+            resultDisplay.textContent = cardsWon.length;
+            alert('You found a match!');
         }
         else {
             cards[optionOneId].setAttribute('src', 'images/blank.png');
@@ -91,9 +92,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         cardsChosen = [];
         cardChosenId = [];
-        resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations!  You found them all!');
+            var winnerlabel = document.getElementById("winner");
+            winnerlabel.innerHTML = "Congratulations!  You found them all!";
+            //alert('Congratulations!  You found them all!');
         }
     }
     //flip your card
