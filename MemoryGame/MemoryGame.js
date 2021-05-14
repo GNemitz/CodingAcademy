@@ -50,20 +50,20 @@ document.addEventListener('DOMContentLoaded', function () {
             img: 'images/whale.jpg'
         },
         {
-            name: 'gpigs',
-            img: 'images/gpigs.jpg'
+            name: 'bear',
+            img: 'images/bear.jpg'
         },
         {
-            name: 'gpigs',
-            img: 'images/gpigs.jpg'
+            name: 'bear',
+            img: 'images/bear.jpg'
         },
         {
-            name: 'bunny',
-            img: 'images/bunny.jpg'
+            name: 'deer',
+            img: 'images/deer.jpg'
         },
         {
-            name: 'bunny',
-            img: 'images/bunny.jpg'
+            name: 'deer',
+            img: 'images/deer.jpg'
         }
     ];
     cardArray.sort(function () { return 0.5 - Math.random(); }); //randomize the card array

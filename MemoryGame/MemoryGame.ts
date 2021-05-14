@@ -51,20 +51,20 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/whale.jpg'
     },
     {
-      name: 'gpigs',
-      img: 'images/gpigs.jpg'
+      name: 'bear',
+      img: 'images/bear.jpg'
     },
     {
-      name: 'gpigs',
-      img: 'images/gpigs.jpg'
+      name: 'bear',
+      img: 'images/bear.jpg'
     },
     {
-      name: 'bunny',
-      img: 'images/bunny.jpg'
+      name: 'deer',
+      img: 'images/deer.jpg'
     },
     {
-      name: 'bunny',
-      img: 'images/bunny.jpg'
+      name: 'deer',
+      img: 'images/deer.jpg'
     }
   ]
 
