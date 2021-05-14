@@ -49,6 +49,22 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'whale',
       img: 'images/whale.jpg'
+    },
+    {
+      name: 'gpigs',
+      img: 'images/gpigs.jpg'
+    },
+    {
+      name: 'gpigs',
+      img: 'images/gpigs.jpg'
+    },
+    {
+      name: 'bunny',
+      img: 'images/bunny.jpg'
+    },
+    {
+      name: 'bunny',
+      img: 'images/bunny.jpg'
     }
   ]
 
@@ -67,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.setAttribute('src', 'images/blank.png');
       card.setAttribute('data-id', i);
       card.addEventListener('click', flipCard);
-      grid.appendChild(card);
+      grid.appendChild(card); 
     }
   }
 
@@ -100,8 +116,7 @@ function checkForMatch() {
     
     if (cardsWon.length === cardArray.length/2) {
       var winnerlabel = document.getElementById("winner");
-      winnerlabel.innerHTML = "Congratulations!  You found them all!";
-      //alert('Congratulations!  You found them all!');
+      winnerlabel.innerHTML = "Congratulations!  You matched all the cards!";
     }
 }
 
@@ -116,6 +131,12 @@ function flipCard() {
   }
 }
 
-createBoard()
+
+createBoard();
 
 })
+
+
+function reset() {
+  window.location.reload();
+  }

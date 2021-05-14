@@ -48,6 +48,22 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             name: 'whale',
             img: 'images/whale.jpg'
+        },
+        {
+            name: 'gpigs',
+            img: 'images/gpigs.jpg'
+        },
+        {
+            name: 'gpigs',
+            img: 'images/gpigs.jpg'
+        },
+        {
+            name: 'bunny',
+            img: 'images/bunny.jpg'
+        },
+        {
+            name: 'bunny',
+            img: 'images/bunny.jpg'
         }
     ];
     cardArray.sort(function () { return 0.5 - Math.random(); }); //randomize the card array
@@ -94,8 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cardChosenId = [];
         if (cardsWon.length === cardArray.length / 2) {
             var winnerlabel = document.getElementById("winner");
-            winnerlabel.innerHTML = "Congratulations!  You found them all!";
-            //alert('Congratulations!  You found them all!');
+            winnerlabel.innerHTML = "Congratulations!  You matched all the cards!";
         }
     }
     //flip your card
@@ -110,3 +125,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     createBoard();
 });
+function reset() {
+    window.location.reload();
+}

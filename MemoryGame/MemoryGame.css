@@ -6,3 +6,8 @@
   width: 500px;
 
 }
+
+label.winner { 
+  color: red; 
+  font-weight: bold;
+}
