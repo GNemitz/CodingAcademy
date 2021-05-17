@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="MemoryGame.css"></link>
-  <script src="MemoryGame.js" charset="utf-8"></script>
+  <script src="memorygametimer.js" charset="utf-8"></script>
 </head>
 <body>
   <h3>Score:  <span id="result"></span></h3>
   <label>Timer: </label>
-  <label id="minutes">00</label>:<label id="seconds">00</label>
+  <span id="min">00</span>:<span id="sec">00</span>
+  <input id="startButton" type="button" value="Start">
+  <input id="pauseButton" type="button" value="Pause">
+  <input id="resumeButton" type="button" value="Resume">
+  <input id="resetButton" type="button" value="Reset">
+  <input id="restartButton" type="button" value="Restart">
   <br>
   <label class='winner' id="winner"> </label>
   <div class="grid">  
