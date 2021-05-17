@@ -116,8 +116,8 @@ function checkForMatch() {
     cardChosenId = [];
     
     if (cardsWon.length === cardArray.length/2) {
+      Clock.stop;
       var winnerlabel = document.getElementById("winner");
-      Clock.pause;
       winnerlabel.innerHTML = "Congratulations!  You matched all the cards!";
     }
 }
