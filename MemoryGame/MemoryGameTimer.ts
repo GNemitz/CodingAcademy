@@ -168,7 +168,13 @@ var Clock = {
   restart: function () {
      this.reset();
      Clock.start();
+  },
+
+  stop: function () {
+    clearInterval(this.interval);
+    delete this.interval;
   }
+
 };
 
 
@@ -177,7 +183,7 @@ document.getElementById("pauseButton").addEventListener("click", function () { C
 document.getElementById("resumeButton").addEventListener("click", function () { Clock.resume(); });
 document.getElementById("resetButton").addEventListener("click", function () { Clock.reset(); });
 document.getElementById("restartButton").addEventListener("click", function () { Clock.restart(); });
-
+document.getElementById("stopButton").addEventListener("click", function () { Clock.stop(); });
 
 
 createBoard();
