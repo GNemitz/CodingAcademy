@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.exe
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.deps.json
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.dll
+C:\Users\gnemitz\CodingAcademy\ClassRoster\bin\Debug\netcoreapp3.1\ClassRoster.pdb
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.dll
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.pdb
+C:\Users\gnemitz\CodingAcademy\ClassRoster\obj\Debug\netcoreapp3.1\ClassRoster.genruntimeconfig.cache
