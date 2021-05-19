@@ -35,9 +35,9 @@ namespace ClassRoster
             Console.Write("Please enter the instructor's contact info: ");
             myInstructor.ContactInfo = Console.ReadLine();
 
-            //Initialize the array of students
-            //string[] myClass;
-            List<Student> myClass = new List<Student>();  // why do we use list instead of array???
+            //Initialize the array of students  // why do we use list instead of array???
+            //string[] myClass = new string[]; //array must specify size
+            List<Student> myClass = new List<Student>();  // must instantiate it 
             
             //Initialize the flag for looping
             bool loopFlag = true;

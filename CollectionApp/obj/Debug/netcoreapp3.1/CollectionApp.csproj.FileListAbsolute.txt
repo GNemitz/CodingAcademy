@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.exe
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.deps.json
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.dll
+C:\Users\gnemitz\CodingAcademy\CollectionApp\bin\Debug\netcoreapp3.1\CollectionApp.pdb
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.dll
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.pdb
+C:\Users\gnemitz\CodingAcademy\CollectionApp\obj\Debug\netcoreapp3.1\CollectionApp.genruntimeconfig.cache
