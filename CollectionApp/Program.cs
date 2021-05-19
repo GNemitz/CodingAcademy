@@ -38,11 +38,6 @@ namespace CollectionApp
             List<Shirt> myShirts = new List<Shirt>();
             List<Glass> myGlasses = new List<Glass>();
 
-            //Initialize the flag for looping
-            bool magnetFlag = true;
-            bool shirtFlag = true;
-            bool glassFlag = true;
-
             //Declare the user choice
             string souvenirChoice;
             string userChoice;
@@ -58,6 +53,7 @@ namespace CollectionApp
             switch(souvenirChoice)
             {
                 case "1":
+                    bool magnetFlag = true;  //initialize the flag for looping
                     while (magnetFlag)
                     {
                         //print the menu
@@ -96,6 +92,7 @@ namespace CollectionApp
                     }
                     break;
                 case "2":
+                    bool shirtFlag = true;  //initialize the flag for looping
                     while (shirtFlag)
                     {
                         //print the menu
@@ -134,6 +131,7 @@ namespace CollectionApp
                     }
                     break;
                 case "3":
+                    bool glassFlag = true;  //initialize the flag for looping
                     while (glassFlag)
                     {
                         //print the menu
@@ -172,6 +170,7 @@ namespace CollectionApp
                     }
                     break;
                 default:
+                    Console.WriteLine("Please enter 1, 2, or 3");
                     break;
             }
 
