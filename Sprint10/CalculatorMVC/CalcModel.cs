@@ -32,6 +32,8 @@ namespace CalculatorMVC
 
             double result = double.NaN;  //default value is 'not-a-number' which we use if an operation such as division could result in an error
 
+
+            //use a s
             switch (newOption)
             {
                 case "a":
@@ -49,9 +51,11 @@ namespace CalculatorMVC
                     {
                         result = numInput1 / numInput2;
                     }
+                    else Console.WriteLine("Can't divide by zero");
                     break;
                 // Return text for an incorrect option entry.
                 default:
+                    Console.WriteLine("Must select a, s, m, or d!");
                     break;
             }
 

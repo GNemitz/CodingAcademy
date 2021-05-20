@@ -6,27 +6,39 @@ namespace CalculatorMVC
 {
     class CalcController
     {
-        private CalcModel aCalc; //creating new model object
-        private CalcView aView;  //creating variable aview
+        private CalcModel aCalcModel; //creating new model object
+        private CalcView aCalcView;  //creating variable aview
 
         public CalcController()  //constructor
         {
             // instantiate/create a view object using the constructor
-            aView = new CalcView();
+            aCalcView = new CalcView();
             // instantiate a model
-            aCalc = new CalcModel();
+            aCalcModel = new CalcModel();
+            bool endApp = false;
 
+            while (!endApp)
+            {
+                // note the interaction between the model and view
+                // in inputting and outputting the information
+                // get numvalue from view and assign model value
+                aCalcModel.NumInput1 = aCalcView.getNumValue();
+                aCalcModel.NumInput2 = aCalcView.getNumValue();
 
-            // note the interaction between the model and view
-            // in inputting and outputting the information
-            aCalc.NumInput1 = aView.getNumValue();
-            aCalc.NumInput2 = aView.getNumValue();
-            string newOption = aView.getOption();
-            double result = aCalc.getResult(newOption);
-            aView.printResult(result);
+                // get calc option from view and set newOption
+                // then send that newOption to the getResult method in CalcModel
+                string newOption = aCalcView.getOption();
+                //if (newOption == "a" , "s" , "m" , "d")
+                double result = aCalcModel.getResult(newOption);
 
+                // print the result received from the model to the view
+                aCalcView.printResult(result);
 
-            //loop based on results
+                //get continue or end option from view and set newCont
+                //then set endApp flag accordingly
+                string newCont = aCalcView.getContinue();
+                if (newCont == "n") endApp = true;
+            }
 
         }
     }
