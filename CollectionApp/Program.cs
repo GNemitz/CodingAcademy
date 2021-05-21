@@ -79,7 +79,7 @@ namespace CollectionApp
                         }
                         else if (userChoice == "2")
                         {
-                            Console.WriteLine(myMagnets);
+                            //Console.WriteLine(myMagnets);
                             foreach (Magnet aMagnet in myMagnets)
                                 Console.WriteLine(aMagnet);
                         }

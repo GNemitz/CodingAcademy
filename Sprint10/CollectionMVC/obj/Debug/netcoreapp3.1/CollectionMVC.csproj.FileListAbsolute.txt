@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.exe
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.dll
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\bin\Debug\netcoreapp3.1\CollectionMVC.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.dll
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint10\CollectionMVC\obj\Debug\netcoreapp3.1\CollectionMVC.genruntimeconfig.cache
