@@ -83,8 +83,8 @@ namespace CollectionMVC
         }
         public string GetUserChoice()
         {
-            Console.WriteLine("1. Add a magnet to the souvenir list.");
-            Console.WriteLine("2. Print the magnet souvenir list.");
+            Console.WriteLine("1. Add to the souvenir list.");
+            Console.WriteLine("2. Print the souvenir list.");
             Console.WriteLine("3. Quit.");
             Console.WriteLine("Please enter a 1, 2, or 3: ");
             string userChoice = Console.ReadLine();
@@ -94,9 +94,6 @@ namespace CollectionMVC
 
         public void PrintShirt(Shirt theShirt)
         {
-            //Console.WriteLine(theShirt.Location);
-            //Console.WriteLine(theShirt.Year);
-            //Console.WriteLine(theShirt.ShirtType);
             Console.WriteLine("I got a " + theShirt.ShirtType + " from " + theShirt.Location + " in " + theShirt.Year + ".");
         }
 
@@ -105,6 +102,15 @@ namespace CollectionMVC
             Console.WriteLine("I got a " + theMagnet.Description + " magnet from " + theMagnet.Location + " " + "in " + theMagnet.Year + ".");
         }
 
+        public void PrintGlass(Glass theGlass)
+        {
+            Console.WriteLine("I got a " + theGlass.Size + " glass from " + theGlass.Location + " " + "in " + theGlass.Year + ".");
+        }
+
+        public void EndApp()
+        {
+            Console.WriteLine("Good Bye!");
+        }
 
     }
 }
