@@ -6,7 +6,7 @@ namespace ClassRosterMVC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            RosterController r = new RosterController();
         }
     }
 }

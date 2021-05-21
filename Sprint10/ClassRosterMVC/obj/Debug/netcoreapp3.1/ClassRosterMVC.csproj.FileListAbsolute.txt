@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.exe
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.dll
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\bin\Debug\netcoreapp3.1\ClassRosterMVC.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.dll
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint10\ClassRosterMVC\obj\Debug\netcoreapp3.1\ClassRosterMVC.genruntimeconfig.cache

@@ -7,7 +7,7 @@ namespace ClassRoster
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pratice with classes and objects...");
+            /*Console.WriteLine("Pratice with classes and objects...");
 
             Instructor myInstructor1 = new Instructor("Alec", "Engebretson", "alec.engebretson@doane.edu");
             Instructor myInstructor2 = new Instructor();
@@ -24,7 +24,7 @@ namespace ClassRoster
             Console.WriteLine(myInstructor1);
             Console.WriteLine(myInstructor2);
             Console.WriteLine(myStudent1);
-            Console.WriteLine(myStudent2);
+            Console.WriteLine(myStudent2);  */
 
             //get the instructor
             Instructor myInstructor = new Instructor();
