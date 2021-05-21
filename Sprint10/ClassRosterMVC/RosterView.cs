@@ -30,7 +30,7 @@ namespace ClassRosterMVC
             string newInstrContactInfo = Console.ReadLine();
             return newInstrContactInfo;
         }
-        
+
         public string getOption()
         {
             Console.WriteLine("1. Add a student to the roster.");
@@ -39,7 +39,41 @@ namespace ClassRosterMVC
             Console.WriteLine("Please enter a 1 or 2 or 3: ");
             string userOption = Console.ReadLine();
             return userOption;
-       
+
         }
+
+        public string GetStudentFirst()
+        {
+            Console.Write("Please enter the student's first name: ");
+            string newStudentFirst = Console.ReadLine();
+            return newStudentFirst;
+        }
+        public string GetStudentLast()
+        {
+            Console.Write("Please enter the student's last name: ");
+            string newStudentLast = Console.ReadLine();
+            return newStudentLast;
+        }
+        public string GetStudentClass()
+        {
+            Console.Write("Please enter the student's class rank: ");
+            string newStudentClassRank = Console.ReadLine();
+            return newStudentClassRank;
+        }
+
+        public void PrintInstructor(Instructor theInstructor)
+        {
+            Console.WriteLine(theInstructor.LastName);
+            Console.WriteLine(theInstructor.FirstName);
+            Console.WriteLine(theInstructor.ContactInfo);
+        }
+
+        public void PrintStudent(Student theStudent)
+        {
+            Console.WriteLine(theStudent.LastName);
+            Console.WriteLine(theStudent.FirstName);
+            Console.WriteLine(theStudent.ClassRank);
+        }
+
     }
 }

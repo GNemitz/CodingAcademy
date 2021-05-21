@@ -6,54 +6,35 @@ namespace ClassRosterMVC
 {
     class RosterModel
     {
-        private string instrFirstName;
-        private string instrLastName;
-        private string instrContactInfo;
+        Instructor myInstructor;  //declare
+        List<Student> myClass;
 
         public RosterModel()
         {
-            instrFirstName = "";
-            instrLastName = "";
-            instrContactInfo = "";
+            myInstructor = new Instructor();  //assign value / create instructor for this roster
+            myClass = new List<Student>(); //create empty student list
         }
 
-        public string InstrFirstName
+        public int StudentCount()
         {
-            get { return instrFirstName; }
-            set { instrFirstName = value; }
+            return myClass.Count;
         }
-        public string InstrLastName
+        public Student GetStudent(int index)
         {
-            get { return instrLastName; }
-            set { instrLastName = value; }
+            return myClass[index];
         }
-        public string InstrContactInfo
+        public void AddStudent(Student myStudent)
         {
-            get { return instrContactInfo; }
-            set { instrContactInfo = value; }
+            myClass.Add(myStudent);
         }
 
-        public string performAction(string newOption)
+        public Instructor GetInstructor()
         {
-            switch (newOption)
-            {
-                case "1":  //add student
-                           //get student
-                    break;
-                case "2":  //print roster
-                    Console.WriteLine(myInstructor);
-                    //foreach (Student aStudent in myClass)
-                    //    Console.WriteLine(aStudent);
-                    break;
-                case "3":  //quit
-                    Console.WriteLine("Good Buy!");
-                    //loopFlag = false;                   
-                    break;
-                // Return text for an incorrect option entry.
-                default:
-                    Console.WriteLine("Must select 1, 2, or 3!");
-                    break;
-            }
+            return myInstructor;
+        }
+        public void AddInstructor(Instructor myNewInstructor)  //pass in instructor object 
+        {
+            myInstructor = myNewInstructor;
         }
     }
 }
