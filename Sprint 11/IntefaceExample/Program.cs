@@ -69,7 +69,7 @@ namespace IntefaceExample
 
         void IWeddingEvent.PrintEventInfo()
         {
-            Console.WriteLine("Wedding Event location: " + theEvent.Location);
+            Console.WriteLine("Wedding Event cost: " + theEvent.Cost);
         }
 
         void IWeddingEvent.AddFee(double theFee)  //add the fee to the cost of the wedding event
@@ -79,11 +79,11 @@ namespace IntefaceExample
 
         void IGraduationEvent.PrintEventInfo()
         {
-            Console.WriteLine("Graduation Event location: " + theEvent.Location);
+            Console.WriteLine("Graduation Event cost: " + theEvent.Cost);
         }
         void IBabyShowerEvent.PrintEventInfo()
         {
-            Console.WriteLine("Baby Shower Event location: " + theEvent.Location);
+            Console.WriteLine("Baby Shower Event cost: " + theEvent.Cost);
         }
 
         public void PrintEventInfo()

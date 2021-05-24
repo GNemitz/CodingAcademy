@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 11\\IntefaceExample\\IntefaceExample.csproj",
-      "projectName": "IntefaceExample",
-      "projectPath": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 11\\IntefaceExample\\IntefaceExample.csproj",
+      "projectUniqueName": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 11\\IntefaceExample\\InterfaceExample.csproj",
+      "projectName": "InterfaceExample",
+      "projectPath": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 11\\IntefaceExample\\InterfaceExample.csproj",
       "packagesPath": "C:\\Users\\gnemitz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 11\\IntefaceExample\\obj\\",
       "projectStyle": "PackageReference",
