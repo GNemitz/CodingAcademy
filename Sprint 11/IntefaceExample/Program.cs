@@ -2,6 +2,7 @@
 
 namespace IntefaceExample
 {
+    //set up interfaces for all event types
     public interface IWeddingEvent
     {
         void PrintEventInfo();
