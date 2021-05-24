@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.exe
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\bin\Debug\netcoreapp3.1\IntefaceExample.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\IntefaceExample.genruntimeconfig.cache
