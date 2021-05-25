@@ -10,3 +10,4 @@ C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1
 C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.dll
 C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.pdb
 C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.genruntimeconfig.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\IntefaceExample\obj\Debug\netcoreapp3.1\InterfaceExample.csprojAssemblyReference.cache

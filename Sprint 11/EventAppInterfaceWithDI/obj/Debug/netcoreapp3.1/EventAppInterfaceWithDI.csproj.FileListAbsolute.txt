@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.exe
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\bin\Debug\netcoreapp3.1\EventAppInterfaceWithDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\EventAppInterfaceWithDI\obj\Debug\netcoreapp3.1\EventAppInterfaceWithDI.genruntimeconfig.cache
