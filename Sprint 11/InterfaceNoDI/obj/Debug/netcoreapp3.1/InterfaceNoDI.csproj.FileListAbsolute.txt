@@ -1,0 +1,12 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.exe
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\bin\Debug\netcoreapp3.1\InterfaceNoDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceNoDI\obj\Debug\netcoreapp3.1\InterfaceNoDI.genruntimeconfig.cache

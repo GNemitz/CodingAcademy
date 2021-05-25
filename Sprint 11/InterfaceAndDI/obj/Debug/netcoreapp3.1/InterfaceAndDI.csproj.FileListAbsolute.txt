@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.exe
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\bin\Debug\netcoreapp3.1\InterfaceAndDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 11\InterfaceAndDI\obj\Debug\netcoreapp3.1\InterfaceAndDI.genruntimeconfig.cache
