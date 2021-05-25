@@ -6,8 +6,8 @@ namespace InterfaceAndDI
     {
         static void Main(string[] args)
         {
-            ILogger loggerFile = new FileLogger();
-            ProductService productService1 = new ProductService(loggerFile);
+            ILogger loggerCloud = new CloudLogger();
+            ProductService productService1 = new ProductService(loggerCloud);
             productService1.Log("First log to file");
         }
     }
