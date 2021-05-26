@@ -1,0 +1,13 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.exe
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.deps.json
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\bin\Debug\netcoreapp3.1\PracticeEngine.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.dll
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.pdb
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PracticeEngine\obj\Debug\netcoreapp3.1\PracticeEngine.genruntimeconfig.cache

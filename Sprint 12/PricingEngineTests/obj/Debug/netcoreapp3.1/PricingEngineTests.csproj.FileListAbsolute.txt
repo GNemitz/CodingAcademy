@@ -1,0 +1,4 @@
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PricingEngineTests\obj\Debug\netcoreapp3.1\PricingEngineTests.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PricingEngineTests\obj\Debug\netcoreapp3.1\PricingEngineTests.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PricingEngineTests\obj\Debug\netcoreapp3.1\PricingEngineTests.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Sprint 12\PricingEngineTests\obj\Debug\netcoreapp3.1\PricingEngineTests.csproj.CoreCompileInputs.cache
