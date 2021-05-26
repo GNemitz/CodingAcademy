@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "fcp16SgXZelV47EnXCeYeX+MoYQGHOmjHtcGpnZhcbkzuyGgUAo3FeROqHOjJzrzkEXIcivGh6OCiNR0HbZHgw==",
-  "success": false,
+  "dgSpecHash": "TiaUqK2BIJRrBWkqjd2xYvsiVoH1P85S629RahmqldCCb2RoC8yg5MjydHiT9T39J8X7ScYFtZFccAuOHfqpQQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 12\\PricingEngineTests\\PricingEngineTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gnemitz\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
@@ -92,15 +92,5 @@
     "C:\\Users\\gnemitz\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\gnemitz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\gnemitz\\CodingAcademy\\Sprint 12\\PracticeEngine\\PracticeEngine.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\gnemitz\\CodingAcademy\\Sprint 12\\PracticeEngine\\PracticeEngine.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
