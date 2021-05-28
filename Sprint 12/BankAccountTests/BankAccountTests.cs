@@ -33,6 +33,7 @@ namespace BankTests
 
             // Act and assert
             Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => account.Debit(debitAmount));
+            
         }
 
         [TestMethod]
