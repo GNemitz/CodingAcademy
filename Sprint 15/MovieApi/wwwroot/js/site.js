@@ -50,7 +50,7 @@ function displayEditForm(id) {
     document.getElementById('edit-id').value = movie.id;
     document.getElementById('edit-title').value = movie.title;
     document.getElementById('edit-genre').value = movie.genre;
-    document.getElementById('edit-watched').value = movie.watched;
+    document.getElementById('edit-watched').checked = movie.watched;
     document.getElementById('editForm').style.display = 'block';
 }
 
