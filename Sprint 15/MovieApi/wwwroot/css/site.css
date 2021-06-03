@@ -21,3 +21,8 @@ td {
     border: 1px solid;
     padding: 5px;
 }
+
+.floatRight{
+    float:right;
+    margin-left:20px
+}

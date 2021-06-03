@@ -9,16 +9,24 @@
 </head>
 <body>
     <h1>Movie Database</h1>
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1614634680.jpg?crop=1.00xw:1.00xh;0,0&resize=768:*" class="floatRight" />
+    <!--<img src="C:\Users\gnemitz\CodingAcademy\Sprint 15\MovieApi\Images\best-movies.jpg" class="floatRight" />-->
+
     <h3>Add</h3>
     <form action="javascript:void(0);" method="post" onsubmit="addMovie()">
         <input type="text" id="add-title" placeholder="New Movie">
         <!--  <input type="text" id="add-genre" placeholder="New Movie Genre">  -->
-        <label for="add-genre" name="add-genre">Choose Movie genre:</label>
-        <select type="checkbox" id="add-genre" placeholder="New Movie Genre">
-            <option value="drama">Drama</option>
-            <option value="comedy">Comedy</option>
-            <option value="thriller">Thriller</option>
-            <option value="other">Other</option>
+        <label for="add-genre" name="add-genre">Movie genre:</label>
+        <select id="add-genre" class="dropdown-menu">
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Family">Family</option>
+            <option value="Romantic Comedy">Romantic Comedy</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Other">Other</option>
+            <!--<option value="Family/Children"></option>
+                <img src="images/childrens-family-genre.jcp" />-->
         </select>
         <input type="submit" value="Add">
     </form>
@@ -29,12 +37,15 @@
             <input type="hidden" id="edit-id">
             <input type="text" id="edit-title">
             <!--<input type="text" id="edit-genre">-->
-            <label for="edit-genre" name="edit-genre">Update Movie genre:</label>
+            <label for="edit-genre" name="edit-genre">Movie genre:</label>
             <select id="edit-genre" placeholder="Update Movie Genre">
-                <option value="drama">Drama</option>
-                <option value="comedy">Comedy</option>
-                <option value="thriller">Thriller</option>
-                <option value="other">Other</option>
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Family">Family</option>
+                <option value="Romantic Comedy">Romantic Comedy</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Other">Other</option>
             </select>
             <input type="checkbox" id="edit-watched">
             <input type="submit" value="Save">
