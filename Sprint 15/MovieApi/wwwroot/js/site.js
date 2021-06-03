@@ -10,6 +10,7 @@ function getMovies() {
 
 function addMovie() {
     const addTitleTextbox = document.getElementById('add-title');
+    //const addGenreTextbox = document.getElementById('add-genre');
     const addGenreTextbox = document.getElementById('add-genre');
 
     const movie = {
