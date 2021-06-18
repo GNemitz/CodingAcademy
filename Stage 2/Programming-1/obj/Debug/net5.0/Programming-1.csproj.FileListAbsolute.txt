@@ -1,0 +1,16 @@
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.exe
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.deps.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\ref\Programming-1.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\bin\Debug\net5.0\Programming-1.pdb
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\ref\Programming-1.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.pdb
+C:\Users\gnemitz\CodingAcademy\Stage 2\Programming-1\obj\Debug\net5.0\Programming-1.genruntimeconfig.cache

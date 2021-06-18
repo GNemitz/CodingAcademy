@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QuPUEl6B4v1bKaP/nBx6Opv8y+B/IaLktaXpGSI0wivInD0HbsjHZXco/lbNTXtPEMsG+0EApCLc5LfDeN3nsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gnemitz\\CodingAcademy\\Stage 2\\Programming-4-Part4\\Programming-4-Part4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gnemitz\\.nuget\\packages\\csvhelper\\27.1.0\\csvhelper.27.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

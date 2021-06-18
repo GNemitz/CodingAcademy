@@ -1,0 +1,16 @@
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.exe
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.deps.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.runtimeconfig.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.runtimeconfig.dev.json
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\ref\LINQActivity.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\bin\Debug\net5.0\LINQActivity.pdb
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.csprojAssemblyReference.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.AssemblyInfoInputs.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.AssemblyInfo.cs
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.csproj.CoreCompileInputs.cache
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\ref\LINQActivity.dll
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.pdb
+C:\Users\gnemitz\CodingAcademy\Stage 2\LINQActivity\obj\Debug\net5.0\LINQActivity.genruntimeconfig.cache

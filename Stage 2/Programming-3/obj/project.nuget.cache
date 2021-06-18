@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3gtlie2wZHj1/ACkRnOm95i3L9JE3QVaQFwrSM08I8fcK5M/ul1K+iihK7NeAtSdVWiOiKuStpTQlCz09WtgIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gnemitz\\CodingAcademy\\Stage 2\\Programming-3\\Programming-3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gnemitz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
